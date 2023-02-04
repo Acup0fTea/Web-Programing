@@ -239,7 +239,7 @@ input[type=checkbox]:not(old):checked+label>span:before {
     font-size: 1rem;
     box-sizing: border-box;
     border-radius: 5px;
-    padding-block: 8px;
+    padding-block: 1px;
     padding-inline: 14px 44px;
     margin: 20px;
     block-size: var(--control-size-md,48px);
