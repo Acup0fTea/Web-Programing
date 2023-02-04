@@ -51,20 +51,64 @@
     font-size: 20px;
 }
 
+div {
+    width: 100%;
+    display: block;
+}
+
 h2 {
     text-align: center;
 }
 
 #leader-board {
     text-align: center;
-    width: 752px;
-    height: 1058px;
+    width: 1500px;
+    height: auto;
     margin: 0 auto;
-    background-color: aliceblue;
 }
 
 #semester-years {
+    text-align: left;
+    flex-wrap: wrap;
+    background-color: #f1f3f4;
     position: relative;
-    width: 752px;
+    line-height: normal;
+    padding: 0 8px;
+    width: 1200px;
     height: 200;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+.rank {
+    left: 50%;
+    position: absolute;
+    right: unset;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.last-5-match {
+    height: 38px;
+    width: 200px;
+}
+
+.logo-template {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    vertical-align: top;
+    top: 12px;
+    margin: 0 2px
 }
