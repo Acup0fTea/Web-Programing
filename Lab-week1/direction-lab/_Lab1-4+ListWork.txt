@@ -6,7 +6,7 @@ HTML Reference Guides
 HTML Attributes Reference Guide
 HTML Cheat Sheet
 The HTML.com Blog
-The HTML.com Guide to Web Hosting
+The HTML.com Blog
 HTML For Absolute Beginners
 What is HTML?
 The History of HTML
