@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Spotify Signup</title>
+</head>
+
+<body>
+    <header>
+        <b>
+            <h2 class="header">Sign up with your email address</h2>
+        </b>
+    </header>
+    <main>
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="email" id="email"
+                                placeholder="Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="Con-email" id="Con-email"
+                                placeholder=" Confirm Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="password" id="password"
+                                placeholder="Password" />
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="call-you" id="call-you"
+                                placeholder="What should we call you?" />
+                        </div>
+                            <label for="birthday" class="label-dob"><span><span></span></span>Date of Birth:</label>
+                        <div class="dob-parent">
+                            <div class="box">
+                                <select id="month" name="month" aria-invalid="true" class="select-month">
+                                    <option selected="" disabled="" value="">month</option>
+                                    <option value="01">January</option>
+                                    <option value="02">February</option>
+                                    <option value="03">March</option>
+                                    <option value="04">April</option>
+                                    <option value="05">May</option>
+                                    <option value="06">June</option>
+                                    <option value="07">July</option>
+                                    <option value="08">August</option>
+                                    <option value="09">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                            </div>
+                            <div class="box">
+                                <input type="text" class="form-input-day" name="day" id="day" placeholder="Day" />
+                            </div>
+                            <div class="box">
+                                <input type="text" class="form-input-day" name="year" id="year" placeholder="Year" />
+                            </div>
+                            <div class="sexual">
+                                <form>
+                                    <input type="radio" id="Man" name="ur-sex" value="Man">
+                                    <label for="Man">Male</label>
+                                    <input type="radio" id="Female" name="ur-sex" value="Female">
+                                    <label for="Female">Female</label>
+                                    <input type="radio" id="Non-binary" name="ur-sex" value="Non-binary">
+                                    <label for="Non-binary">Non biary</label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>Share my registration data with Spotify's content providers for marketing purpose
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up" />
+                         </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
