@@ -36,7 +36,7 @@ function addTask(event) {
 addButton.addEventListener("click", addTask);
 
 taskInput.addEventListener("keyup", function (event) {
-  if (event.keyCode === 13) {
+  if (event.key === "Enter") {
     addTask(event);
   }
 
