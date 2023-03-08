@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto Slab', serif;
-    background: linear-gradient(120deg, #e8d9ff, #ffd3e3);
+    background-image: url("anya-forge.webp");
+    /* background: linear-gradient(120deg, #e8d9ff, #ffd3e3); */
 }
 
 .container {
