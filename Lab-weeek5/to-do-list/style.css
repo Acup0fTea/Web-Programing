@@ -1,76 +1,98 @@
 body {
-	font-family: Arial, sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(120deg, #e8d9ff, #ffd3e3);
 }
 
 .container {
-	max-width: 600px;
-	margin: auto;
-	padding: 20px;
+    background-color: #f5f5f5;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-	text-align: center;
+    text-align: center;
+    color: #666;
 }
 
 form {
-	display: flex;
-	margin-bottom: 20px;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 form input[type="text"] {
-	flex: 1;
-	padding: 10px;
-	font-size: 16px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 form button {
-	background-color: #4CAF50;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 4px;
-	cursor: pointer;
+    background-color: #8fd19e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
 
 form button:hover {
-	background-color: #45a049;
+    background-color: #5da66d;
 }
 
 ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-color: #999 #EEE;
+    scrollbar-width: thin;
+}
+
+ul::-webkit-scrollbar {
+    width: 8px;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+
+ul::-webkit-scrollbar-track {
+    background-color: #EEE;
 }
 
 li {
-	padding: 10px;
-	border: 1px solid #ccc;
-	margin-bottom: 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 li span {
-	flex: 1;
+    flex: 1;
+    color: #333;
 }
 
 li button {
-	background-color: #f44336;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 4px;
-	cursor: pointer;
+    background-color: #f86d70;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 li button:hover {
-	background-color: #ff1a1a;
+    background-color: #f5b5b8;
 }
 
 .completed {
-	text-decoration: line-through;
-	color: #999;
+    text-decoration: line-through;
+    color: #999;
 }
