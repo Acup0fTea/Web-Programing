@@ -1,0 +1,19 @@
+/* .show-detail {
+    background-color: rgb(231, 218, 255);
+    font-size: 0.75cm;
+    color: rgb(164, 115, 255);
+    border: 2px solid rgb(164, 115, 255);
+} */
+
+details {
+    margin: 20px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(231, 218, 255);
+    font-size: 0.75cm;
+    color: rgb(53, 0, 152);
+    border: 2px solid rgb(53, 0, 152);;
+}
